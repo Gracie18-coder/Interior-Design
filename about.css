@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --body-color: #ff565b;
+    --dark-body-color: #2a2a2a;
+}
+
+/* =======================General-Styles====================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sen", sans-serif;
+    overflow-x: hidden;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+/* =======================Main-Styles====================== */
+/* =======================Hero-Section====================== */
+.hero-background {
+    background-image: url('./Assets/lamp.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 40%;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.753);
+
+}
+
+header {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 16px;
+}
+
+li {
+    padding: 9px 20px;
+    margin-left: 5px;
+}
+
+.nav-menu {
+    position: sticky;
+    top: 0;
+    bottom: 50;
+}
+
+ 
+.active-link{
+    background-color: #fff;
+    padding: 15px;
+    border-top: 2px solid var(--body-color);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.logo-menu {
+    margin-right: auto;
+    margin-top: auto;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: #fff;
+}
+.hero-text h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.hero-text * {
+    margin-top: 20px;
+}
+
+.hero-text span {
+    color: var(--body-color);
+}
+
+.hero-paragraph{
+    font-size: 18px;
+}
+
+.shadow-box-1 {
+    width: 25%;
+    height: 200px;
+    margin: auto;
+    margin-left: 200px;
+    padding-top: 60px;
+    position: relative;
+    bottom: 110px;
+    background-color: #fff;
+    border-radius: 4px;
+    right: 80px;
+    box-shadow: 0px 0px 5px;
+}
+.shadow-box-2 {
+    width:25%;
+    height: 200px;
+    margin: auto;
+    margin-left: 190px;
+    padding-top: 60px;
+    position: relative;
+    bottom: 310px;
+    left: 320px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px;
+}
+.shadow-box-3 {
+    width:25%;
+    height: 200px;
+    margin: auto;
+    margin-left: 350px;
+    padding-top: 60px;
+    position: relative;
+    bottom: 510px;
+    left: 550px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px;
+}
+.imgresizs{
+    width: 80px;
+    margin-left: 120px;
+    margin-top: -20px;
+}.shadow-box-1 h2, .shadow-box-2 h2, .shadow-box-3 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.main{
+    margin-top: -350px;
+    margin-left: 115px;
+    display: flex;
+    gap: 90px;
+}
+
+.first-h1{
+    font-size: 30px;
+}
+.sec-h1{
+    font-size: 27px;
+    margin-left: 20px;
+    color: var(--body-color );
+}
+.will-flex{
+    display: flex;
+}
+.main-icon{
+    width: 80px;
+    height: 80px;
+    margin-top: -20px;
+}
+.main-left-img{
+    border-radius: 15px;
+    width: 550px;
+}
+.main-right-paragraph{
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+.main-right-paragraph span{
+    font-weight: bold;
+}
+.drop-down{
+    margin-top: 20px;
+}
+.drop-down h1{
+    font-size: 30px;
+}
+.Firstparagraph{
+    margin-top: 20px;
+}
+.p2{   display: none;
+    margin-top: 20px;
+}
+p1:hover .p2{
+    display: block;
+}
