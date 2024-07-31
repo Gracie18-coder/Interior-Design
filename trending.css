@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --body-color: #ff565b;
+    --dark-body-color: #2a2a2a;
+}
+
+/* =======================General-Styles====================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sen", sans-serif;
+    overflow-x: hidden;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+/* =======================Main-Styles====================== */
+/* =======================Hero-Section====================== */
+.hero-background {
+    background-image: url('./Assets/lamp.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 40%;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.753);
+
+}
+
+header {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.nav-menu li {
+    padding: 9px 20px;
+    margin-left: 5px;
+}
+
+.nav-menu {
+    position: sticky;
+    top: 0;
+    bottom: 50;
+}
+
+
+.active-link {
+    background-color: #fff;
+    padding: 15px;
+    border-top: 2px solid var(--body-color);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: var(--body-color);
+}
+
+.logo-menu {
+    margin-right: auto;
+    margin-top: auto;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: #fff;
+}
+
+.hero-text h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hero-text span {
+    color: var(--body-color);
+}
+
+.hero-paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+}
