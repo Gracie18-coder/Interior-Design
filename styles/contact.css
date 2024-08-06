@@ -114,9 +114,8 @@ header {
     left: 100px;
     bottom: 590px;
 }
-
+/* -----------contact section styling---------------------------- */
 .contact-flex {
-    /* margin-top: -160px; */
     z-index: 50px;
     background-color: #fff;
     border: rgba(255, 255, 255, 0.808);
@@ -241,10 +240,6 @@ header {
     height: 180px;
     margin: auto;
     margin-top: 30px;
-    /* margin-left: 200px;
-    padding-top: 60px; */
-    /* position: relative;
-    bottom: 110px; */
     background-color: var(--body-color);
     border-radius: 4px;
     right: 80px;
@@ -271,7 +266,6 @@ header {
 .shadow-box-1-text {
     color: #fff;
     margin-top: 20px;
-    /* text-align: center; */
     margin-left: 140px;
 }
 
@@ -282,7 +276,7 @@ header {
 .shadow-box-1-text p {
     font-size: 17px;
 }
-
+/* ----------border before footer styling---------------- */
 .border {
     margin-top: 670px;
     padding: 50px;
@@ -305,7 +299,7 @@ header {
     color: var(--body-color);
     border-radius: 5px;
 }
-
+/* -------------footer section styling--------------- */
 footer {
     margin-top: 50px;
     margin-left: 40px;
@@ -329,7 +323,6 @@ footer h3 {
 .footer-paragraph-2 {
     margin-top: 200px;
     line-height: 30px;
-    /* opacity: 0.7; */
 }
 
 .footer-left p {
